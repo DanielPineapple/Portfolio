@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piña | Portfolio</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="header">  <!-- Inicio Header-->
+        <nav class="navbar">
+            <picture class="navbar__logo">
+            <a href="index.html">
+                <img src="./img/Logo/_f7d6d1cc-95ca-4e52-a4ff-70dcf5b6f6e5 12.png" alt="Isologotipo Daniel Piña Frontend">
+            </a>
+            </picture>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#PROYECT" data-ancla="PROYECTO">PROYECT</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#CONTACT" data-ancla="CONTACT">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+
+                    <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+<!---->        <div id="mobile-menu" class="overlay">
+<!---->            <a onclick="closeNav()" href="" class="close">&times;</a>
+<!---->            <div class="overlay-content">
+<!---->                <a href="#PROYECT" data-ancla="PROYECT">PROYECT</a>
+<!---->                <a href="#CONTACT" data-ancla="CONTACT">CONTACT</a>
+<!---->            </div>
+<!---->        </div>
+            </div>
+        </nav>
+    </header>
+    <!-------contenido portfolio------->
+    <main class="main-container">
+        <section class="img__biglogo">
+            <img src="./img/Logo/_f7d6d1cc-95ca-4e52-a4ff-70dcf5b6f6e5 12.png" alt="">
+        </section>
+        <section class="content container">
+            <picture class="content__img" data-aos="fade-right" data-aos-delay="200" data-aos-delay=»-500″>
+                <img src="./img/Imagen de WhatsApp 2023-11-01 a las 02.32.54_a772b0c9.jpg" alt="Foto Daniel Piña Tirado Frontend Developer">
+            </picture>
+            <div class="content__descript">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos saepe velit dicta nihil, veritatis voluptates quasi facere vel illum officiis quidem id dolores. Porro modi nemo, ab voluptatem libero dolores!</h1>
+            </div>
+        </section>
+        <section class="collection">
+            <h2 id="PROYECT">PROYECT</h2>
+            <div class="collection__proyect" data-aos="zoom-in" data-aos-delay="200" data-aos-delay=»-500″>
+                <a href="https://danielpineapple.github.io/Proyecto_Portfolio/">
+                <img class="proyect__img" src="./img/funkos-banner.webp" alt="Proyecto Funkoshop">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2 class="title__contact" id="CONTACT">CONTACT</h2>
+            <ul class="social__media">
+                <li class="social__item">
+                    <a class="social__link" href="mailto:danieltrabajo1618@gmail.com"><img src="./img/icon/google-gmail.svg" alt=""></a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="https://www.linkedin.com/in/daniel-alberto-pi%C3%B1a-tirado-011088146/"  target="_blank"><img src="./img/icon/linkedin.svg" alt=""></a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" target="_blank" href="https://www.instagram.com/pineapplelifestyles/" ><img src="./img/icon/instagram.svg" alt=""></a>
+                </li>
+                <picture>
+                    <a href="index.html">
+                    <img class="img__log" src="./img/Logo/DANIEL PIÑA TIRADO • FRONTEND DEVELOPER • (1) 1.png" alt="Isologotipo Daniel Piña Frontend">
+                    </a>
+                </picture>
+            </ul>
+    </footer>
+    <script type="text/javascript" src="./js/nav.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
