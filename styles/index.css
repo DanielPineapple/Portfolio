@@ -233,6 +233,11 @@ header {
     border-radius: 50px 50px 0 0;
 }
 
+.funko__title {
+    text-align: center;
+    margin: auto;
+}
+
 .skills__items {
     position: absolute;
     bottom: 30px;
@@ -249,7 +254,6 @@ header {
 
 .footer {
     background-color: var(--secondary-solid);
-    padding: var(--spacing-68);
     height: 400px;
 }
 
@@ -269,49 +273,55 @@ header {
         float: inline-end;
         width: 200px;
         height: 200px;
+        margin: 30px;
     }
 
     .social__media {
-        margin-left: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 300px;
+        margin-left: 360px;
     } 
 
 .social__link1 {
     width: 60px;
     padding: 30px;
     height: 60px;
-    float: left;
 }
 
 .social__link2 {
     width: 60px;
     padding: 30px;
     height: 60px;
-    float: left;
 }
 
 .social__link3 {
     width: 60px;
     padding: 30px;
     height: 60px;
-    float: left;
 }
 
 .social__link4 {
     width: 60px;
     padding: 30px;
     height: 60px;
-    float: left;
 }
 
 @media (max-width: 900px) {
     .social__media {
-        margin-left: 20px;
+        display: flex;
+        width: 300px;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 @media (max-width: 900px) {
     .social__item {
-
         justify-content:center;
         align-items:center;
         padding: 10px;
@@ -327,8 +337,7 @@ header {
 
 @media (max-width: 900px) {
     .content__log {
-        width: 100px;
-        height: 100px;
+        display: none;
     }
 }
 
