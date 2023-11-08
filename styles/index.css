@@ -189,6 +189,18 @@ header {
         justify-content:center;
         align-items:center;
         margin: 150px;
+        padding-top: 100px;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .content__descript {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -196,6 +208,14 @@ header {
     .content__descript {
         display: flex;
         padding: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+
     }
 }
 
@@ -220,7 +240,8 @@ header {
     flex-direction: row;
     width: auto;
     height: 100px;
-    justify-content: space-around;
+    margin-right: 25px;
+
 }
 
 .icons__skills {
@@ -306,6 +327,15 @@ header {
     display: inline-block;
     width: 60px;
     height: 60px;
+}
+
+@media (max-width: 300px) {
+    .collection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -394,10 +424,11 @@ header {
 }
 
 @media (max-width: 900px) {
-    .social__item {
+    .list-contact {
         justify-content:center;
         align-items:center;
         padding: 10px;
+        margin-left: -45px;
     }
 }
 
@@ -409,7 +440,7 @@ header {
 } 
 
 @media (max-width: 900px) {
-    .content__log {
+    .log-dan {
         display: none;
     }
 }
