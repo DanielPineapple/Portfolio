@@ -6,6 +6,6 @@ function closeNav(){
     document.getElementById("mobile-menu").style.width = "0%";
 }
 
-document.getElementById("close-menu").addEventListener("click", function(event){
-    event.preventDefault(closeNav)
+document.addEventListener("click", function(event){
+    event.preventDefault()
 });
