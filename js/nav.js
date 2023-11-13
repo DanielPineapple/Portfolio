@@ -6,7 +6,6 @@ function closeNav(){
     document.getElementById("mobile-menu").style.width = "0%";
 }
 
-btnResumen.addEventListener('click', (e) => {
+document.addEventListener('click', (e) => {
     e.preventDefault()
-    calcularPago()
 });
