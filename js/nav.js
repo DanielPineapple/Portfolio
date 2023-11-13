@@ -7,5 +7,5 @@ function closeNav(){
 }
 
 document.getElementById("close-menu").addEventListener("click", function(event){
-    event.preventDefault()
+    event.preventDefault(this.click)
 });
