@@ -102,7 +102,7 @@
 
 }
 
-.header .overlay .overlay-content{
+.header .overlay .overlay-content {
     display: flex;
     height: 100%;
     flex-direction: column;
