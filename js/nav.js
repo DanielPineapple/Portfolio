@@ -4,8 +4,7 @@ function openNav(){
 
 function closeNav(){
     document.getElementById("mobile-menu").style.width = "0%";
+    document.addEventListener('click', (e) => {
+        e.preventDefault()
+    });
 }
-
-document.addEventListener('click', (e) => {
-    e.preventDefault()
-});
