@@ -272,6 +272,9 @@ header {
 }
 
 .name__skill {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin: auto;
     font-family: Arial Black; 
@@ -288,9 +291,10 @@ header {
 
 .collection {
     height: 540px;
+    display: flex;
 }
 
-.collection h2 {
+.collection__title {
     text-align: center; 
     font-family: var(--base-font) Black; 
     font-weight: bold; 
@@ -310,6 +314,7 @@ header {
     border-radius: 50px;
     box-shadow: -7px 7px 5px;
     position: relative;
+    border: black 2px solid;
 }
 
 .proyect__img {
