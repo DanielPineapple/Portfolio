@@ -225,7 +225,7 @@ section {
     text-shadow: 0 1px 0 #afe086, 0 2px 0 #b8eab3, 0 3px 0 #a2ecab, 0 4px 0 #b9eda8, 0 5px 0 #9fe0a3, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
 }
 
-.skills__icom {
+.skills__icoms {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -268,6 +268,19 @@ section {
 
 /*---------------Proyectos-----------------*/
 
+/* Proyectos */
+
+.proyectos-recientes {
+    padding: 40px;
+}
+
+.row {
+    margin: 20px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
 .collection {
     height: auto;
     display: flex;
@@ -282,6 +295,11 @@ section {
     font-size: 40px; 
     color: var(--primary-solid); 
     text-shadow: 0 1px 0 #afe086, 0 2px 0 #b8eab3, 0 3px 0 #a2ecab, 0 4px 0 #b9eda8, 0 5px 0 #9fe0a3, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    }
+
+    .proyectos-contenedor {
+        padding-top: 60px;
+        margin-bottom: 40px;
     }
 
 .collection__proyect {
@@ -318,6 +336,8 @@ section {
 }
 
 .skills__items {
+    display:contents;
+    align-items: center;
     position: absolute;
     bottom: 30px;
 }
@@ -428,5 +448,15 @@ footer {
         flex-wrap: nowrap;
         flex-direction: column;
         gap: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+    font-size: 18px;
+    }
+
+    .overlay i {
+    font-size: 40px;
     }
 }
