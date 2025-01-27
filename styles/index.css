@@ -281,6 +281,7 @@ section {
     align-items: center;
 }
 
+
 .collection {
     height: auto;
     display: flex;
@@ -302,25 +303,28 @@ section {
         margin-bottom: 40px;
     }
 
-.collection__proyect {
-    background-color: var(--light-bg-mist);
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items:normal;
-    width: 300px;
-    height: 320px;
-    border-radius: 50px;
-    box-shadow: -7px 7px 5px;
-    position: relative;
-    border: black 2px solid;
-}
+    .collection__proyect {
+        background-color: var(--light-bg-mist);
+        display: flex;
+        flex-direction: column; /* Alinea los elementos en columna */
+        justify-content: flex-start; /* Asegura que la imagen esté en la parte superior */
+        align-items:normal;
+        width: 300px;
+        height: 320px;
+        border-radius: 50px;
+        box-shadow: -7px 7px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        position: relative;
+        border: 2px solid black;
+        overflow: hidden; /* Impide que elementos se desborden del contenedor */
+    }
 
-.proyect__img {
-    width: 300px;
-    height: 200px;
-    border-radius: 50px 50px 0 0;
-}
+    .project__img {
+        width: 100%; /* Ocupa todo el ancho */
+        height: 200px; /* Ocupa solo la mitad del alto */
+        object-fit: cover; /* Ajusta la imagen sin deformarla */
+        border-radius: 50px 50px 0 0; /* Redondea solo las esquinas superiores */
+        display: block; /* Elimina espacios en blanco extra */
+    }
 
 .funko__title {
     text-align: center;
